@@ -25,10 +25,10 @@
     "rollup-plugin-dts": "^5.3.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.6.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "react": "18.2.0",
-    "@mantine/core": "^6.0.19"
+    "@mantine/core": "^6.0.19",
+    "react": "18.2.0"
   }
 }
