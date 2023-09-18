@@ -47,4 +47,4 @@ function Cards({ data }) {
 }
 
 
-export {Cards};
+export default Cards;
