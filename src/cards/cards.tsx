@@ -6,7 +6,7 @@ import {
  faSitemap,
 } from '@fortawesome/free-solid-svg-icons';*/
 import { Card, Text } from '@mantine/core'; 
-import './index.css';
+import './style.css';
 
 function Cards({ data }) {
  
