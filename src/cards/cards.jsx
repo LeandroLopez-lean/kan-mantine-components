@@ -1,6 +1,6 @@
 import React from 'react';
-/* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+/* import {
   faDownload,
   faTimes,
   faGear,
@@ -19,26 +19,26 @@ function Cards({ data }) {
       {data.map((card, index) => (
         <Card key={index} className='card-container'>
           <div className='top-bar'>
-            <FontAwesomeIcon icon={faSitemap} className='sitemap' />
+           {/*  <FontAwesomeIcon icon={faSitemap} className='sitemap' /> */}
             <Text className='title'>{card.title}</Text>
-            <FontAwesomeIcon className="close-icon" icon={faTimes} />
+            {/* <FontAwesomeIcon className="close-icon" icon={faTimes} /> */}
           </div>
           <div className='content'>
             <div className="water-icon">
-              <FontAwesomeIcon
+              {/* <FontAwesomeIcon
                 icon={faWater}
-              />
+              /> */}
               <Text className='category'>{card.category}</Text>
             </div>
             <div className='icon-container'>
               <div className='icons'>
                 {
                   card.options?.map((option) => (
-                    <FontAwesomeIcon
+                    {/* <FontAwesomeIcon
                       icon={option.icon}
                       className='dowloand'
                       onClick={option.onClick}
-                    />
+                    /> */}
                   ))
                 }
               </div>
