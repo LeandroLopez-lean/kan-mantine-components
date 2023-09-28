@@ -32,15 +32,15 @@ function Cards({ data }) {
             </div>
             <div className='icon-container'>
               <div className='icons'>
-                {
+               {/* {
                   card.options?.map((option) => (
-                    {/* <FontAwesomeIcon
+                     <FontAwesomeIcon
                       icon={option.icon}
                       className='dowloand'
                       onClick={option.onClick}
-                    /> */}
+                    /> 
                   ))
-                }
+                }*/}
               </div>
             </div>
           </div>
