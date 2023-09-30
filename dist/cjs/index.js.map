@@ -1,1 +1,7 @@
-{"version":3,"file":"index.js","sources":["../../src/components/greetings/greetings.tsx"],"sourcesContent":["import React from 'react';\nfunction Greetings() {\n    const saludo = 'Leandro!';\n    return (React.createElement(\"div\", null, saludo));\n}\nexport default Greetings;\n//# sourceMappingURL=greetings.js.map"],"names":["Greetings","React","createElement"],"mappings":"qBACA,SAASA,IAEL,OAAQC,EAAMC,cAAc,MAAO,KADpB,WAEnB"}
+{
+  "version":3,"file":"index.js",
+  "sources":["../../src/components/greetings/greetings.tsx"],
+  "sourcesContent":["import React from 'react';\nfunction Greetings() {\n    const saludo =  'Leandro!';\n    return (React.createElement(\"div\", null, saludo));\n}\nexport default        Greetings;\n//# sourceMappingURL=greetings.js.map"],
+  "names":["Greetings","React","createElement"],
+  "mappings":"qBACA,SAASA,IAEL,OAAQC,EAAMC,cAAc,MAAO,KADpB,WAEnB"
+}
