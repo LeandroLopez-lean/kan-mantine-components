@@ -22,5 +22,5 @@ function Cards() {
   )};
 
 
-export { Cards };
+export default Cards;
 
