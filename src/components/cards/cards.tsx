@@ -13,13 +13,14 @@ import { Card, Text } from '@mantine/core';*/
 import './index.css';
 
 function Cards() {
-
+  const apellido = 'Lopez';
   return (
     <div>
-   <h1>lalala</h1>
+      {apellido}
+  
     </div>
-        
-  )};
+ );
+}
 
 
 export default Cards;
