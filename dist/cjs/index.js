@@ -1,2 +1,2 @@
-import e from"react";function r(){return e.createElement("div",null,"Leandro!")}export{r as Greetings};
+import e from"react";import{Card as t,Text as a}from"@mantine/core";function c(){return e.createElement("div",null,"Leandro!")}function r({data:c}){return e.createElement("div",{className:"div"},c.map(((c,r)=>e.createElement(t,{key:r,className:"card-container"},e.createElement("div",{className:"top-bar"},e.createElement(a,{className:"title"},c.title)),e.createElement("div",{className:"content"},e.createElement("div",{className:"water-icon"},e.createElement(a,{className:"category"},c.category)),e.createElement("div",{className:"icon-container"}))))))}export{r as Cards,c as Greetings};
 //# sourceMappingURL=index.js.map
