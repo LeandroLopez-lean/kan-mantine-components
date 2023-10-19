@@ -1,4 +1,5 @@
 import React from 'react';
+import './cards.css';
 interface CardData {
     title: string;
     category: string;

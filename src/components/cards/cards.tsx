@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Text } from '@mantine/core';
-import 'cards.css'
+import './cards.css'
 
 // Define una interfaz para los objetos en la matriz data
 interface CardData {
