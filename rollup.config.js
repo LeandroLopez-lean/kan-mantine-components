@@ -38,10 +38,11 @@ export default [
     external: [/\.css$/],
   },
   {
-    input: 'src/components/cards/cards.css',
-    output: {
-      file: 'dist/cards.css',
-      format: 'es',
+    input: 'src/components/cards/cards.css',//ruta de entrada
+    output: { 
+      file: 'dist/cards.css',//archivo de salida 
+      format: 'es', //en formato ecmascript
+      assetFileNames: 'assets/[name]-[hash][extname]'   //..... esta es la linea que no entiedo
     },
     plugins: [css({ output: './dist/cards.css' })],
   },
